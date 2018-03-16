@@ -1,6 +1,5 @@
 package com.stylefeng.guns.config.web;
 
-import com.stylefeng.guns.config.properties.BeetlProperties;
 import org.beetl.core.resource.ClasspathResourceLoader;
 import org.beetl.ext.spring.BeetlGroupUtilConfiguration;
 import org.beetl.ext.spring.BeetlSpringViewResolver;
@@ -17,9 +16,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class BeetlConfig {
-
-    @Autowired
-    BeetlProperties beetlProperties;
 
     /**
      * beetl的配置

@@ -26,3 +26,286 @@
 2018-03-16 14:05:12,495 [INFO] [http-nio-80-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-03-16 14:05:12,496 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
 2018-03-16 14:05:12,520 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-03-16 14:13:52,958 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 48] Starting GunsApplication on PC527707 with PID 21716 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 14:13:52,959 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2018-03-16 14:13:52,999 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79843c2a: startup date [Fri Mar 16 14:13:52 CST 2018]; root of context hierarchy
+2018-03-16 14:13:54,085 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2018-03-16 14:13:54,093 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2018-03-16 14:13:54,094 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 14:13:54,149 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2018-03-16 14:13:54,149 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 1150 ms
+2018-03-16 14:13:54,240 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 14:13:54,243 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 14:13:54,243 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 14:13:54,244 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 14:13:54,244 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 14:13:54,507 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79843c2a: startup date [Fri Mar 16 14:13:52 CST 2018]; root of context hierarchy
+2018-03-16 14:13:54,548 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/index]}" onto public java.lang.String com.stylefeng.guns.controller.IndexController.index()
+2018-03-16 14:13:54,550 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 14:13:54,551 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 14:13:54,567 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:13:54,567 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:13:54,590 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:13:54,662 [WARN] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 62] Unable to start LiveReload server
+2018-03-16 14:13:54,695 [INFO] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2018-03-16 14:13:54,730 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 198] Tomcat started on port(s): 80 (http)
+2018-03-16 14:13:54,733 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 57] Started GunsApplication in 2.059 seconds (JVM running for 2.34)
+2018-03-16 14:13:54,733 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [GunsApplication.java : 24] GunsApplication is success!
+2018-03-16 14:13:57,363 [INFO] [http-nio-80-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-16 14:13:57,364 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-16 14:13:57,378 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-03-16 14:14:22,138 [INFO] [Thread-1] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79843c2a: startup date [Fri Mar 16 14:13:52 CST 2018]; root of context hierarchy
+2018-03-16 14:14:22,141 [INFO] [Thread-1] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 449] Unregistering JMX-exposed beans on shutdown
+2018-03-16 14:14:22,412 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 48] Starting GunsApplication on PC527707 with PID 21716 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 14:14:22,413 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2018-03-16 14:14:22,414 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49a9eba9: startup date [Fri Mar 16 14:14:22 CST 2018]; root of context hierarchy
+2018-03-16 14:14:22,605 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2018-03-16 14:14:22,606 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2018-03-16 14:14:22,606 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 14:14:22,613 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2018-03-16 14:14:22,613 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 199 ms
+2018-03-16 14:14:22,630 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 14:14:22,631 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 14:14:22,631 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 14:14:22,631 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 14:14:22,631 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 14:14:22,680 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49a9eba9: startup date [Fri Mar 16 14:14:22 CST 2018]; root of context hierarchy
+2018-03-16 14:14:22,684 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/index]}" onto public java.lang.String com.stylefeng.guns.controller.IndexController.index()
+2018-03-16 14:14:22,686 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 14:14:22,686 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 14:14:22,690 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:22,691 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:22,697 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:22,715 [WARN] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 62] Unable to start LiveReload server
+2018-03-16 14:14:22,742 [INFO] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2018-03-16 14:14:22,750 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 198] Tomcat started on port(s): 80 (http)
+2018-03-16 14:14:22,751 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 57] Started GunsApplication in 0.372 seconds (JVM running for 30.357)
+2018-03-16 14:14:22,751 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [GunsApplication.java : 24] GunsApplication is success!
+2018-03-16 14:14:35,148 [INFO] [Thread-8] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49a9eba9: startup date [Fri Mar 16 14:14:22 CST 2018]; root of context hierarchy
+2018-03-16 14:14:35,150 [INFO] [Thread-8] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 449] Unregistering JMX-exposed beans on shutdown
+2018-03-16 14:14:35,334 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 48] Starting GunsApplication on PC527707 with PID 21716 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 14:14:35,334 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2018-03-16 14:14:35,336 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@678257f7: startup date [Fri Mar 16 14:14:35 CST 2018]; root of context hierarchy
+2018-03-16 14:14:35,503 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2018-03-16 14:14:35,504 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2018-03-16 14:14:35,504 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 14:14:35,512 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2018-03-16 14:14:35,513 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 177 ms
+2018-03-16 14:14:35,528 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 14:14:35,528 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 14:14:35,529 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 14:14:35,529 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 14:14:35,529 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 14:14:35,534 [WARN] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 550] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beetlConfig' defined in file [E:\java_code1\spring\springboot-beetl\target\classes\com\stylefeng\guns\config\web\BeetlConfig.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.stylefeng.guns.config.web.BeetlConfig$$EnhancerBySpringCGLIB$$9e8b2f27]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The import com.stylefeng.guns.config.properties cannot be resolved
+
+2018-03-16 14:14:35,535 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Stopping service Tomcat
+2018-03-16 14:14:35,539 [INFO] [restartedMain] o.s.b.a.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java : 101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-16 14:14:35,542 [ERROR] [restartedMain] org.springframework.boot.SpringApplication [SpringApplication.java : 815] Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beetlConfig' defined in file [E:\java_code1\spring\springboot-beetl\target\classes\com\stylefeng\guns\config\web\BeetlConfig.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.stylefeng.guns.config.web.BeetlConfig$$EnhancerBySpringCGLIB$$9e8b2f27]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The import com.stylefeng.guns.config.properties cannot be resolved
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.stylefeng.guns.config.web.BeetlConfig$$EnhancerBySpringCGLIB$$9e8b2f27]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The import com.stylefeng.guns.config.properties cannot be resolved
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:154)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The import com.stylefeng.guns.config.properties cannot be resolved
+
+	at com.stylefeng.guns.config.web.BeetlConfig.<init>(BeetlConfig.java:3)
+	at com.stylefeng.guns.config.web.BeetlConfig$$EnhancerBySpringCGLIB$$9e8b2f27.<init>(<generated>)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	... 24 common frames omitted
+2018-03-16 14:14:43,035 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 48] Starting GunsApplication on PC527707 with PID 21716 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 14:14:43,036 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2018-03-16 14:14:43,040 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54946bb3: startup date [Fri Mar 16 14:14:43 CST 2018]; root of context hierarchy
+2018-03-16 14:14:43,225 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2018-03-16 14:14:43,226 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2018-03-16 14:14:43,226 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 14:14:43,255 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2018-03-16 14:14:43,256 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 216 ms
+2018-03-16 14:14:43,271 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 14:14:43,272 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 14:14:43,272 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 14:14:43,272 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 14:14:43,272 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 14:14:43,306 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54946bb3: startup date [Fri Mar 16 14:14:43 CST 2018]; root of context hierarchy
+2018-03-16 14:14:43,309 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/index]}" onto public java.lang.String com.stylefeng.guns.controller.IndexController.index()
+2018-03-16 14:14:43,311 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 14:14:43,311 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 14:14:43,314 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:43,314 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:43,320 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:43,333 [WARN] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 62] Unable to start LiveReload server
+2018-03-16 14:14:43,353 [INFO] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2018-03-16 14:14:43,359 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 198] Tomcat started on port(s): 80 (http)
+2018-03-16 14:14:43,361 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 57] Started GunsApplication in 0.382 seconds (JVM running for 50.966)
+2018-03-16 14:14:43,361 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [GunsApplication.java : 24] GunsApplication is success!
+2018-03-16 14:14:50,039 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 48] Starting GunsApplication on PC527707 with PID 23704 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 14:14:50,040 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2018-03-16 14:14:50,078 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79843c2a: startup date [Fri Mar 16 14:14:50 CST 2018]; root of context hierarchy
+2018-03-16 14:14:51,096 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2018-03-16 14:14:51,105 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2018-03-16 14:14:51,106 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 14:14:51,163 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2018-03-16 14:14:51,163 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 1085 ms
+2018-03-16 14:14:51,264 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 14:14:51,267 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 14:14:51,267 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 14:14:51,268 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 14:14:51,268 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 14:14:51,511 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79843c2a: startup date [Fri Mar 16 14:14:50 CST 2018]; root of context hierarchy
+2018-03-16 14:14:51,570 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/index]}" onto public java.lang.String com.stylefeng.guns.controller.IndexController.index()
+2018-03-16 14:14:51,573 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 14:14:51,573 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 14:14:51,589 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:51,589 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:51,614 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:14:51,689 [WARN] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 62] Unable to start LiveReload server
+2018-03-16 14:14:51,720 [INFO] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2018-03-16 14:14:51,744 [ERROR] [restartedMain] org.apache.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 181] Failed to start end point associated with ProtocolHandler ["http-nio-80"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2018-03-16 14:14:51,745 [ERROR] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 181] Failed to start connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	... 19 common frames omitted
+2018-03-16 14:14:51,751 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Stopping service Tomcat
+2018-03-16 14:14:51,758 [INFO] [restartedMain] o.s.b.a.logging.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java : 101] 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-16 14:14:51,760 [ERROR] [restartedMain] o.s.boot.diagnostics.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java : 42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2018-03-16 14:14:51,761 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79843c2a: startup date [Fri Mar 16 14:14:50 CST 2018]; root of context hierarchy
+2018-03-16 14:14:51,762 [INFO] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 449] Unregistering JMX-exposed beans on shutdown
+2018-03-16 14:14:58,687 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 48] Starting GunsApplication on PC527707 with PID 23996 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 14:14:58,688 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [SpringApplication.java : 637] No active profile set, falling back to default profiles: default
+2018-03-16 14:14:58,723 [INFO] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c5ec5ee: startup date [Fri Mar 16 14:14:58 CST 2018]; root of context hierarchy
+2018-03-16 14:14:59,719 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2018-03-16 14:14:59,727 [INFO] [restartedMain] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2018-03-16 14:14:59,728 [INFO] [restartedMain] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 14:14:59,784 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2018-03-16 14:14:59,785 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 1062 ms
+2018-03-16 14:14:59,879 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 14:14:59,882 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 14:14:59,882 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 14:14:59,882 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 14:14:59,883 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 14:15:00,106 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c5ec5ee: startup date [Fri Mar 16 14:14:58 CST 2018]; root of context hierarchy
+2018-03-16 14:15:00,147 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/index]}" onto public java.lang.String com.stylefeng.guns.controller.IndexController.index()
+2018-03-16 14:15:00,149 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 14:15:00,150 [INFO] [restartedMain] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 14:15:00,165 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:15:00,165 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:15:00,189 [INFO] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 14:15:00,263 [WARN] [restartedMain] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 62] Unable to start LiveReload server
+2018-03-16 14:15:00,295 [INFO] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2018-03-16 14:15:00,331 [INFO] [restartedMain] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 198] Tomcat started on port(s): 80 (http)
+2018-03-16 14:15:00,334 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [StartupInfoLogger.java : 57] Started GunsApplication in 1.926 seconds (JVM running for 2.211)
+2018-03-16 14:15:00,334 [INFO] [restartedMain] com.stylefeng.guns.GunsApplication [GunsApplication.java : 24] GunsApplication is success!
+2018-03-16 14:15:02,597 [INFO] [http-nio-80-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-16 14:15:02,597 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-16 14:15:02,615 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms

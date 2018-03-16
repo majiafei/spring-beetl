@@ -12,9 +12,7 @@
 	</parent>
 
 	<properties>
-
 		<beetl.version>2.7.15</beetl.version>
-
 	</properties>
 
 	<dependencies>

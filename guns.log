@@ -1,0 +1,293 @@
+2018-03-16 13:47:24.837  INFO 16788 --- [main] com.stylefeng.guns.GunsApplication       : Starting GunsApplication on PC527707 with PID 16788 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 13:47:24.840 DEBUG 16788 --- [main] com.stylefeng.guns.GunsApplication       : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-03-16 13:47:24.840  INFO 16788 --- [main] com.stylefeng.guns.GunsApplication       : The following profiles are active: dev
+2018-03-16 13:47:24.873  INFO 16788 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2925bf5b: startup date [Fri Mar 16 13:47:24 CST 2018]; root of context hierarchy
+2018-03-16 13:47:25.287  INFO 16788 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Dbcp; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2018-03-16 13:47:25.302  WARN 16788 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.stylefeng.guns]' package. Please check your configuration.
+2018-03-16 13:47:25.626  INFO 16788 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ecf616] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-16 13:47:25.662  WARN 16788 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+2018-03-16 13:47:25.667 ERROR 16788 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:137) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23) [classes/:na]
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:189) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:162) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:134) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	... 8 common frames omitted
+
+2018-03-16 13:49:14.406  INFO 22040 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Starting GunsApplication on PC527707 with PID 22040 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 13:49:14.406 DEBUG 22040 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-03-16 13:49:14.406  INFO 22040 --- [restartedMain] com.stylefeng.guns.GunsApplication       : The following profiles are active: dev
+2018-03-16 13:49:14.466  INFO 22040 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c7e91e5: startup date [Fri Mar 16 13:49:14 CST 2018]; root of context hierarchy
+2018-03-16 13:49:15.152  INFO 22040 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Dbcp; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2018-03-16 13:49:15.171  WARN 22040 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.stylefeng.guns]' package. Please check your configuration.
+2018-03-16 13:49:15.226  INFO 22040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-03-16 13:49:15.630  INFO 22040 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$66891898] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-16 13:49:15.983  INFO 22040 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-03-16 13:49:15.994  INFO 22040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-03-16 13:49:15.995  INFO 22040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 13:49:16.082  INFO 22040 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-16 13:49:16.082  INFO 22040 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1618 ms
+2018-03-16 13:49:16.211  INFO 22040 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 13:49:16.214  INFO 22040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 13:49:16.215  INFO 22040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 13:49:16.215  INFO 22040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 13:49:16.215  INFO 22040 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 13:49:16.502  INFO 22040 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c7e91e5: startup date [Fri Mar 16 13:49:14 CST 2018]; root of context hierarchy
+2018-03-16 13:49:16.550  INFO 22040 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 13:49:16.551  INFO 22040 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 13:49:16.572  INFO 22040 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:49:16.573  INFO 22040 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:49:16.602  INFO 22040 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:49:17.248  WARN 22040 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springProcessEngineConfiguration' defined in class path resource [org/flowable/spring/boot/DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flowable.spring.SpringProcessEngineConfiguration]: Factory method 'springProcessEngineConfiguration' threw exception; nested exception is java.io.FileNotFoundException: class path resource [processes/] cannot be resolved to URL because it does not exist
+2018-03-16 13:49:17.252  INFO 22040 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-03-16 13:49:17.260  INFO 22040 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-16 13:49:17.266 ERROR 22040 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springProcessEngineConfiguration' defined in class path resource [org/flowable/spring/boot/DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flowable.spring.SpringProcessEngineConfiguration]: Factory method 'springProcessEngineConfiguration' threw exception; nested exception is java.io.FileNotFoundException: class path resource [processes/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flowable.spring.SpringProcessEngineConfiguration]: Factory method 'springProcessEngineConfiguration' threw exception; nested exception is java.io.FileNotFoundException: class path resource [processes/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [processes/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:187) ~[spring-core-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:464) ~[spring-core-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:293) ~[spring-core-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.devtools.restart.ClassLoaderFilesResourcePatternResolver.getResources(ClassLoaderFilesResourcePatternResolver.java:113) ~[spring-boot-devtools-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.context.support.GenericApplicationContext.getResources(GenericApplicationContext.java:231) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.flowable.spring.boot.AbstractProcessEngineConfiguration.discoverProcessDefinitionResources(AbstractProcessEngineConfiguration.java:80) ~[flowable-spring-boot-starter-basic-6.2.0.jar:na]
+	at org.flowable.spring.boot.AbstractProcessEngineAutoConfiguration.baseSpringProcessEngineConfiguration(AbstractProcessEngineAutoConfiguration.java:74) ~[flowable-spring-boot-starter-basic-6.2.0.jar:na]
+	at org.flowable.spring.boot.DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration.springProcessEngineConfiguration(DataSourceProcessEngineAutoConfiguration.java:57) ~[flowable-spring-boot-starter-basic-6.2.0.jar:na]
+	at org.flowable.spring.boot.DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration$$EnhancerBySpringCGLIB$$b45f15d9.CGLIB$springProcessEngineConfiguration$0(<generated>) ~[flowable-spring-boot-starter-basic-6.2.0.jar:na]
+	at org.flowable.spring.boot.DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration$$EnhancerBySpringCGLIB$$b45f15d9$$FastClassBySpringCGLIB$$d5b5c3b9.invoke(<generated>) ~[flowable-spring-boot-starter-basic-6.2.0.jar:na]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.flowable.spring.boot.DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration$$EnhancerBySpringCGLIB$$b45f15d9.springProcessEngineConfiguration(<generated>) ~[flowable-spring-boot-starter-basic-6.2.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 24 common frames omitted
+
+2018-03-16 13:50:05.891  INFO 20844 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Starting GunsApplication on PC527707 with PID 20844 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 13:50:05.892 DEBUG 20844 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-03-16 13:50:05.892  INFO 20844 --- [restartedMain] com.stylefeng.guns.GunsApplication       : The following profiles are active: dev
+2018-03-16 13:50:05.937  INFO 20844 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c7e91e5: startup date [Fri Mar 16 13:50:05 CST 2018]; root of context hierarchy
+2018-03-16 13:50:06.499  INFO 20844 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Dbcp; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Dbcp.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]]
+2018-03-16 13:50:06.518  WARN 20844 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.stylefeng.guns]' package. Please check your configuration.
+2018-03-16 13:50:06.563  INFO 20844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-03-16 13:50:06.965  INFO 20844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15a80d5c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-16 13:50:07.322  INFO 20844 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-03-16 13:50:07.332  INFO 20844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-03-16 13:50:07.333  INFO 20844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 13:50:07.418  INFO 20844 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-16 13:50:07.418  INFO 20844 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1483 ms
+2018-03-16 13:50:07.534  INFO 20844 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 13:50:07.538  INFO 20844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 13:50:07.538  INFO 20844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 13:50:07.538  INFO 20844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 13:50:07.539  INFO 20844 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 13:50:07.812  INFO 20844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c7e91e5: startup date [Fri Mar 16 13:50:05 CST 2018]; root of context hierarchy
+2018-03-16 13:50:07.858  INFO 20844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 13:50:07.859  INFO 20844 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 13:50:07.882  INFO 20844 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:50:07.882  INFO 20844 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:50:07.911  INFO 20844 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:50:08.637  INFO 20844 --- [restartedMain] o.f.e.i.c.ProcessEngineConfigurationImpl : Found 1 Process Engine Configurators in total:
+2018-03-16 13:50:08.639  INFO 20844 --- [restartedMain] o.f.e.i.c.ProcessEngineConfigurationImpl : class org.flowable.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2018-03-16 13:50:08.639  INFO 20844 --- [restartedMain] o.f.e.i.c.ProcessEngineConfigurationImpl : Executing beforeInit() of class org.flowable.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2018-03-16 13:50:09.250  INFO 20844 --- [restartedMain] o.f.e.i.c.ProcessEngineConfigurationImpl : Executing configure() of class org.flowable.spring.configurator.SpringIdmEngineConfigurator (priority:100000)
+2018-03-16 13:50:09.294  INFO 20844 --- [restartedMain] o.f.idm.engine.impl.IdmEngineImpl        : IdmEngine default created
+2018-03-16 13:50:09.319 ERROR 20844 --- [restartedMain] o.f.e.c.impl.interceptor.CommandContext  : Error while closing command context
+
+java.lang.NullPointerException: null
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.dbSchemaUpdate(ProcessDbSchemaManager.java:186) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.performSchemaOperationsProcessEngineBuild(ProcessDbSchemaManager.java:315) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:28) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:51) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:93) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:72) ~[flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:49) [flowable-spring-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133) [spring-tx-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.flowable.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:46) [flowable-spring-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.ProcessEngineImpl.<init>(ProcessEngineImpl.java:78) [flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:775) [flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.spring.SpringProcessEngineConfiguration.buildProcessEngine(SpringProcessEngineConfiguration.java:68) [flowable-spring-6.2.0.jar:6.2.0]
+	at org.flowable.spring.ProcessEngineFactoryBean.getObject(ProcessEngineFactoryBean.java:60) [flowable-spring-6.2.0.jar:6.2.0]
+	at org.flowable.spring.ProcessEngineFactoryBean.getObject(ProcessEngineFactoryBean.java:32) [flowable-spring-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1309) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1275) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) [spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) [spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) [spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+
+2018-03-16 13:50:09.320  WARN 20844 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'runtimeServiceBean' defined in class path resource [org/flowable/spring/boot/DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration.class]: Unsatisfied dependency expressed through method 'runtimeServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processEngine': FactoryBean threw exception on object creation; nested exception is java.lang.NullPointerException
+2018-03-16 13:50:09.324  INFO 20844 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-03-16 13:50:09.332  INFO 20844 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-16 13:50:09.335 ERROR 20844 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'runtimeServiceBean' defined in class path resource [org/flowable/spring/boot/DataSourceProcessEngineAutoConfiguration$DataSourceProcessEngineConfiguration.class]: Unsatisfied dependency expressed through method 'runtimeServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processEngine': FactoryBean threw exception on object creation; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at com.stylefeng.guns.GunsApplication.main(GunsApplication.java:23) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_121]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processEngine': FactoryBean threw exception on object creation; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1309) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1275) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 24 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.dbSchemaUpdate(ProcessDbSchemaManager.java:186) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.performSchemaOperationsProcessEngineBuild(ProcessDbSchemaManager.java:315) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:28) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:51) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:93) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:72) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:56) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:25) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:72) ~[flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:49) ~[flowable-spring-6.2.0.jar:6.2.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133) ~[spring-tx-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.flowable.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:46) ~[flowable-spring-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) ~[flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.engine.common.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) ~[flowable-engine-common-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.ProcessEngineImpl.<init>(ProcessEngineImpl.java:78) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:775) ~[flowable-engine-6.2.0.jar:6.2.0]
+	at org.flowable.spring.SpringProcessEngineConfiguration.buildProcessEngine(SpringProcessEngineConfiguration.java:68) ~[flowable-spring-6.2.0.jar:6.2.0]
+	at org.flowable.spring.ProcessEngineFactoryBean.getObject(ProcessEngineFactoryBean.java:60) ~[flowable-spring-6.2.0.jar:6.2.0]
+	at org.flowable.spring.ProcessEngineFactoryBean.getObject(ProcessEngineFactoryBean.java:32) ~[flowable-spring-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168) ~[spring-beans-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	... 35 common frames omitted
+
+2018-03-16 13:50:53.138  INFO 224 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Starting GunsApplication on PC527707 with PID 224 (E:\java_code1\spring\springboot-beetl\target\classes started by 527707 in E:\java_code1\spring\springboot-beetl)
+2018-03-16 13:50:53.139 DEBUG 224 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2018-03-16 13:50:53.139  INFO 224 --- [restartedMain] com.stylefeng.guns.GunsApplication       : The following profiles are active: dev
+2018-03-16 13:50:53.185  INFO 224 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61cda00a: startup date [Fri Mar 16 13:50:53 CST 2018]; root of context hierarchy
+2018-03-16 13:50:53.752  INFO 224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-03-16 13:50:54.397  INFO 224 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-03-16 13:50:54.408  INFO 224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-03-16 13:50:54.409  INFO 224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2018-03-16 13:50:54.514  INFO 224 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-16 13:50:54.515  INFO 224 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1334 ms
+2018-03-16 13:50:54.628  INFO 224 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-16 13:50:54.632  INFO 224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-16 13:50:54.632  INFO 224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-16 13:50:54.632  INFO 224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-16 13:50:54.633  INFO 224 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-16 13:50:54.906  INFO 224 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61cda00a: startup date [Fri Mar 16 13:50:53 CST 2018]; root of context hierarchy
+2018-03-16 13:50:54.959  INFO 224 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-16 13:50:54.960  INFO 224 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-16 13:50:54.979  INFO 224 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:50:54.979  INFO 224 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:50:55.004  INFO 224 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-16 13:50:55.227  WARN 224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-03-16 13:50:55.263  INFO 224 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-16 13:50:55.301  INFO 224 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-03-16 13:50:55.304  INFO 224 --- [restartedMain] com.stylefeng.guns.GunsApplication       : Started GunsApplication in 2.452 seconds (JVM running for 2.796)
+2018-03-16 13:50:55.304  INFO 224 --- [restartedMain] com.stylefeng.guns.GunsApplication       : GunsApplication is success!
